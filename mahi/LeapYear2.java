@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class LeapYear2 
+{
+	public static void main(String[] args) 
+	{
+		int i,year,Leapcheck;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Your Birth Year");
+		year=sc.nextInt();
+		
+		for(i=year;i<=2025;i++)
+		{
+		 if( (i%4==0 && i%100!=0) || (i%400==0))
+			{
+			 System.out.println(i);
+			}
+		}
+	}
+}

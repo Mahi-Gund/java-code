@@ -1,0 +1,17 @@
+class Pattern2 
+{
+	public static void main(String[] args) 
+	{
+		
+		int i,j;
+		for ( i=0;i<j;i++)
+		{
+			for( j=0;j<8;j++)
+			{
+				System.out.print(i);
+			}
+			System.out.print("\n");
+		}
+		
+	}
+}
