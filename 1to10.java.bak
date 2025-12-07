@@ -1,0 +1,23 @@
+class 1to10 
+{
+	int show ()
+	{
+		int a=1;
+		System.out.print(a);
+		a++;
+		if(a<=10)
+		{
+			show();
+		}
+		else
+		{
+			return 0;
+		}
+	}
+	
+	public static void main(String[] args) 
+	{
+		show();
+		
+		}
+}

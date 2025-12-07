@@ -1,0 +1,25 @@
+// Q.Take input as char store as integer and print the char.
+
+import java.util.Scanner;
+class  CharToChar
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		char x;
+		int a[]=new int[5];
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the elements of char array");
+		
+		for (i=0;i<5;i++)
+		{
+			x=sc.next().charAt(0);
+			a[i]=x;
+		}
+		for (i=0;i<5;i++)
+		{
+			x=(char)a[i];
+			System.out.print(x+" ");
+		}
+	}
+}
