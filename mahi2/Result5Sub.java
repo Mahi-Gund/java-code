@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+class Result5Sub 
+{
+	public static void main(String[] args) 
+	{
+		float coa,ada,se,os,m3;
+		int count=0;
+		Scanner scr=new Scanner(System.in);
+		
+		System.out.println("Enter the marks of COA");
+		coa=scr.nextFloat();
+		System.out.println("Enter the marks of ADA");
+		ada=scr.nextFloat();
+		System.out.println("Enter the marks of SE");
+		se=scr.nextFloat();
+		System.out.println("Enter the marks of OS");
+		os=scr.nextFloat();
+		System.out.println("Enter the marks of M3");
+		m3=scr.nextFloat();
+		
+		float sum,percent;
+		
+		sum=coa+ada+se+os+m3;
+		percent=(sum/500)*100;
+		
+		if (coa<40) count++;
+		if (ada<40) count++;
+		if (se<40) count++;
+		if (os<40) count++;
+		if (m3<40) count++;
+		
+		if(count==1){
+			System.out.println("Back in one");
+		}
+		else if(count>=2){
+			System.out.println("fail");
+		}
+		
+		System.out.println("The sum of the marks is :" +(sum));
+		
+		System.out.println("The percentage are :"+(percent));
+		
+		
+	}
+}

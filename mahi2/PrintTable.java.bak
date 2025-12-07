@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class PrintTable 
+{
+	public static void main(String[] args) 
+	{
+		int n,i,table;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the Number");
+		n=sc.nextInt();
+		
+		for(i=1;i<=10;i++){
+			
+			table=n*i;
+			System.out.println(n);
+		}
+		
+	}
+}

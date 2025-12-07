@@ -1,0 +1,17 @@
+//Static variables and Methods
+//How does it works together static variables and methods?
+
+import java.util.Scanner;
+class StaticDemo1 
+{
+	
+	static {
+		x=x*10;
+	}
+	static int x=3000;
+	public static void main(String[] args) 
+	{
+		x=x+9000;
+		System.out.println(x);
+	}
+}
