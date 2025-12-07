@@ -1,0 +1,37 @@
+class A
+{
+	A()
+	{
+		System.out.println("Default Constructor");
+	}
+	A(int a)
+	{
+		for(int i=1;i<=10;i++)
+		{
+			System.out.println(a*i);
+		}
+	}
+	A(int r,double pi)
+	{
+		System.out.println("Area="+(r*r*pi));
+	}
+	A(int p,int r,int t)
+	{
+		System.out.println("SI="+((p+r+t)/100));
+	}
+	A(String name)
+	{
+		System.out.println(name);
+	}
+}
+class ParaCons 
+{
+	public static void main(String[] args) 
+	{
+	A a1=new A();
+	A a1=new A(4);
+	A a1=new A(45,3.14);
+	A a1=new A(12000,12,15);
+	A a1=new A("Priyansh Chouhan");
+	}
+}
