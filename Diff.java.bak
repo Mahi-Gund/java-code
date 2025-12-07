@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class Diff 
+{
+	public static void main(String[] args) 
+	{
+		int a,a_square,a_cube,diff;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the value of A");
+		a=sc.nextInt();
+		
+		a_square=a*a;
+		a_cube=a*a*a;
+		
+		diff=a_cube-a_square;
+		
+		System.out.println("Square :\t"+a_square);
+		System.out.println("Cube :\t"+a_cube);
+		System.out.println("Difference Between them :\t"+diff);
+	}
+}

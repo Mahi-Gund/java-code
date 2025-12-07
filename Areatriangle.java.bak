@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Areatriangle 
+{
+	public static void main(String[] args) 
+	{
+		double base,height,area;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the Base and Height :");
+		base=sc.nextDouble();
+		height=sc.nextDouble();
+		double half=0.5;
+		area=half*base*height;
+		System.out.println("Area of Triangle is :"+area);
+	}
+}

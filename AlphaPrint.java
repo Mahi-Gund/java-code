@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class AlphaPrint 
+{
+	public static void main(String[] args) 
+	{
+		char in,i;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter alpha AtoZ :");
+		in=sc.next().charAt(0);
+		
+		for(i='A';i<='Z';i++)
+		{
+			System.out.println(i);
+			if(i==in){
+				break;
+			}
+		}
+		
+	}
+}

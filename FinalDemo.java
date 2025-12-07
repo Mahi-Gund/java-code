@@ -1,0 +1,31 @@
+// *Final Keyword*
+/* 1.If the class is final we cannot inherit it.
+	2.If the method is final we cannot override it.
+	3.And if the variable is final we cannot change it's value. */
+
+//If  you want that no one can override your method then use final.
+
+
+class DD 
+{
+	final void m1(){
+		System.out.println("Hello Indore");
+		}
+		}
+		
+		class FinalDemo extends DD
+		{
+			void m1() /*Will give error ------ DD.java:18: error: m1() in FinalDemo cannot override m1() in DD
+                        void m1() */
+                             ^
+			{
+				System.out.println("Hello India");
+			}
+			
+
+	public static void main(String[] args) 
+	{
+		FinalDemo d1=new FinalDemo();
+		d1.m1();
+	}
+}

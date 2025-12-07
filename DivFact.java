@@ -1,0 +1,16 @@
+class DivFact 
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		
+		for(i=1;i<=100;i++)
+		{	
+			if(5%i==0 || 10%i==0){
+				System.out.println(i);
+				continue;
+			}
+			
+		}
+	}
+}

@@ -1,0 +1,14 @@
+//Not Running
+class DD2
+{
+	public static void m1()
+	{
+		System.out.println("Hello Indore");
+	}
+}
+class StaDemo2 
+{
+	public static void main(String args[]){	
+	DD2.m1();
+}
+}

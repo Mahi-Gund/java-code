@@ -1,0 +1,21 @@
+//Final Keyword in case of variable
+
+class FinalDemo1 
+{
+	final int x=9000;
+	void m1(){
+	
+	//x=x+2000;		//If we remove this statment that it will work because we cannot assign any other value to final variable
+					/*FinalDemo1.java:7: error: cannot assign a value to final variable x
+					x=x+2000;    */
+		
+	System.out.println("X="+x);
+	}
+	
+	public static void main(String[] args) 
+	{
+	FinalDemo1 d1=new FinalDemo1();
+	
+	d1.m1();
+	}
+}

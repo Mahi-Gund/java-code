@@ -1,0 +1,17 @@
+class CharPrint 
+{
+	public static void main(String[] args) 
+	{
+		char i,check='E';
+		for(i='A';i<='Z';i++)
+		{
+		System.out.println(i);
+		if(check=='E' || check=='J' || check=='O' || check=='T' || check=='Y')
+			{
+			break;
+			}
+			System.out.println(i);
+		}
+		
+	}
+}
